@@ -13,8 +13,8 @@ class RunModel():
         self.colums = ['품종', '색', '성별', '중성화유무', '나이', '지역', '크기']
         
     def make_dataframe(self):
-        age = int(self.input[4])
-        area = int(self.input[6])
+        age = float(self.input[4])
+        size = float(self.input[6])
 
         if age <=1 :
             self.input[4] = '유년'
@@ -23,11 +23,11 @@ class RunModel():
         elif age >= 7 :
             self.input[4] = '노년'
 
-        if area <= 6 :
+        if size <= 6 :
             self.input[6] = '소형'
-        elif area > 6 and area <= 14 :
+        elif size > 6 and size <= 14 :
             self.input[6] = '중형'
-        elif area > 14 :
+        elif size > 14 :
             self.input[6] = '대형'
              
         self.input_df = pd.DataFrame(self.input, index = self.colums).T
