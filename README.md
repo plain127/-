@@ -85,3 +85,5 @@ Assets/
 │  └─ Classification.cs
 └─ ...
 ```
+## Inference Console File
+[Download](https://drive.google.com/file/d/15_0xkeu8tbjGGqwVO2twnxw5MWyPtdzU/view?usp=drive_link)
