@@ -73,7 +73,7 @@ Assets/
 
 - classifier_train.ipynb
 
-- <img width="280" alt="결과" src="https://github.com/user-attachments/assets/8d8c7cea-ad8d-4623-bae6-9cfd67e3cc5e">
+<img width="280" alt="결과" src="https://github.com/user-attachments/assets/8d8c7cea-ad8d-4623-bae6-9cfd67e3cc5e">
 
 - 정확도 : 0.7092
 - 정밀도 : 0.7266
