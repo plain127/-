@@ -2,15 +2,15 @@
 
 ## 유기반려견 입양가능성 판별 분류기
 
-## Project
+## 프로젝트
 
 ![detection](https://github.com/user-attachments/assets/1dbe9c9b-50dc-407b-9904-f43659638f55)
 
-## Purpose
+## 목적
 
-- 머신러닝 Classification을 이용하여 보호소에서 보호종료된 반려견들의 데이터들을 가지고 입양과 미입양된 반려견들의 사례를 학습시켜 입양 가능성을 높이기 위해 필요한 피처의 상관관계를 추론해본다.
+- 머신러닝 Classification을 이용하여 보호소에서 보호종료된 반려견들의 데이터들을 가지고 입양과 미입양된 반려견들의 사례를 학습시켜 입양 가능성을 높이기 위해 필요한 피처의 상관관계를 추론.
 
-## Model
+## 모델
 
 ### XGBoost Classifier
 
@@ -31,7 +31,7 @@ Assets/
 └─ ...
 ```
 
-## Dataset
+## 데이터 셋
 
 - Feature Data : '품종', '색', '성별', '중성화유무', '나이', '지역', '크기'
 - Label Data : '상태'
@@ -65,15 +65,15 @@ Assets/
   {입양 (입양, 기증)}
   {미입양 (자연사, 안락사)}
 
-## Preprocessing
+## 전처리
 
 - Label Encoding
 
-## Train
+## 훈련
 
 - classifier_train.ipynb
 
-## UI/UX Client
+## UI/UX 클라이언트
 
 - Unity UI
 - python connect to unity
@@ -85,5 +85,5 @@ Assets/
 │  └─ Classification.cs
 └─ ...
 ```
-## Inference Console File
+## 실행파일
 [Download](https://drive.google.com/file/d/15_0xkeu8tbjGGqwVO2twnxw5MWyPtdzU/view?usp=drive_link)
